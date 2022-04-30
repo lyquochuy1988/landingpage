@@ -7,6 +7,29 @@
     --primary-color: #48bcef;
     --second-color: #08578c;
     --button-bg: #2b8ed4;
+    --blue: #507CBE;
+    --blue1: #4872AF;
+    --blue2: #3C629B;
+    --red: #DC4134;
+    --red2: #ba3226;
+    --pink: #ED1EF7;
+    --yellow: #F4B604;
+    --green: #009E57;
+    --gray0: #F4F7FA;
+    --gray1: #FDFDFD;
+    --gray2: #EEEEEE;
+    --gray3: #E9EBF0;
+    --gray4: #D6DADE;
+    --gray5: #8F96A1;
+    --dark: #666666;
+    --background: var(--gray1);
+    --textLight: var(--gray4);
+    --textGray: var(--gray5);
+    --textDark: var(--dark);
+    --primary: var(--blue);
+    --primaryShadow: var(--blue2);
+    --primaryDark: var(--blue3);
+    --redShadow: var(--red2);
 }
 
 * {
@@ -32,7 +55,8 @@
 }
 
 html {
-    font-family: 'Rockwell', sans-serif;
+    /* font-family: 'Rockwell', sans-serif; */
+    font-family: 'Rubik', sans-serif;
     font-size: 62.5%;
     color: #a3a3a3;
     box-sizing: border-box;
@@ -44,7 +68,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Rockwell-Bold', sans-serif;
+    /* font-family: 'Rockwell-Bold', sans-serif; */
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 ul,
