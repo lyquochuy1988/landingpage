@@ -154,7 +154,8 @@
         line-height: 1.2em;
         font-family: 'Rockwell-Bold';
         margin: 0;
-        color: var(--h3-color);
+        color: var(--white-color);
+        /* color: var(--h3-color); */
         /* text-shadow: 1px 1px 0 black; */
     }
     
@@ -165,7 +166,7 @@
         line-height: 1.2em;
         font-family: 'Rockwell-Bold';
         margin: 0;
-        color: var(--textDark);
+        color: var(--white-color);
     }
     
     .section-organized p {
@@ -175,7 +176,9 @@
         line-height: 2.6em;
         font-family: 'Rockwell-Bold';
         margin: 20px 0;
-        color: #868686;
+        /* color: #868686; */
+        color: var(--white-color);
+        /* text-shadow: 1px 1px 0 var(--h3-color); */
     }
     
     .text-dark {
@@ -196,7 +199,8 @@
     }
     
     .bg-gradient {
-        background-color: #f8f8f8;
+        /* background-color: #f8f8f8; */
+        background-color: #8ec741;
         border-top: 1px solid #eeeeee;
         border-bottom: 1px solid #eeeeee;
     }
@@ -229,7 +233,7 @@
     
     .section-organized ul {
         font-size: 18px;
-        color: var(--textDark);
+        color: var(--white-color);
     }
     
     .section-organized ul li {
@@ -347,13 +351,50 @@
     .second-section .button-apply {
         margin-top: 30px;
     }
+    
+    .second-section h3,
+    .four-section h3,
+    .six-section h3 {
+        color: var(--h3-color);
+    }
     /* third section */
     
     .third-section .h3-padding {
         margin: 30px 0 20px;
     }
+    
+    .third-section .btn.btn-danger,
+    .five-section .btn.btn-danger,
+    .seven-section .btn.btn-danger {
+        background-color: var(--white-color);
+        /* background-color: #8ec741; */
+        color: var(--h3-color);
+    }
+    
+    .second-section.section-organized ul,
+    .six-section.section-organized ul {
+        font-size: 18px;
+        color: var(--title-color);
+    }
+    
+    .four-section p,
+    .second-section h4 {
+        color: var(--title-color);
+    }
     /* last row */
     
     .last-row p {
         line-height: 18px;
+    }
+    
+    .fa-address-book,
+    .fa-balance-scale,
+    .fa-bank,
+    .fa-credit-card {
+        font-size: 50px;
+        color: var(--h3-color);
+    }
+    
+    .second-section .row.middle {
+        margin: 50px 0;
     }
