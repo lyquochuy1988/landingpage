@@ -30,6 +30,7 @@
     --primaryShadow: var(--blue2);
     --primaryDark: var(--blue3);
     --redShadow: var(--red2);
+    --h3-color: #8ec741;
 }
 
 * {
