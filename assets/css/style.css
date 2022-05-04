@@ -77,7 +77,7 @@
     /* Main Content */
     
     .section-box.section-organized.bg-gradient {
-        padding: 100px 200px;
+        padding: 60px 200px;
         margin: 0 -200px;
     }
     
@@ -95,7 +95,7 @@
     }
     
     .section-organized {
-        padding: 100px 0;
+        padding: 60px 0;
     }
     
     .section-organized.top-header h2 {
@@ -356,6 +356,10 @@
     .four-section h3,
     .six-section h3 {
         color: var(--h3-color);
+    }
+    
+    .four-section h3 {
+        margin-bottom: 30px;
     }
     /* third section */
     
